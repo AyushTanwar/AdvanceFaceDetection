@@ -33,10 +33,10 @@ faceprototype = "face_detector.pbtxt"
 faceModel = "face_detector_ui.pb"
 
 ageprototype = "agecalc.prototxt"
-ageModel = "ageavg.caffemodel"
+ageModel = "age_net.caffemodel"
 
 genderProto = "genderclassifier.prototxt"
-genderModel = "genderavg.caffemodel"
+genderModel = "gender_net.caffemodel"
 
 meanmodelvalues = (78.4263377603, 87.7689143744, 114.895847746)
 ageList = ['(0-2)', '(4-8)', '(8-12)', '(15-25)', '(25-35)', '(38-43)', '(48-53)', '(60-100)']
